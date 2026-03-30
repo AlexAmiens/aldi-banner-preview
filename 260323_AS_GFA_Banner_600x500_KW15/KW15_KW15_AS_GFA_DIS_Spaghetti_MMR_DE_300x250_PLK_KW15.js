@@ -316,11 +316,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.SPAREN("synched",0);
 	this.instance_1.setTransform(-7.5,125,1,1,0,0,0,307.5,125);
 
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FF0000").s().p("Ag7A8IAAh3IB3AAIAAB3g");
-	this.shape.setTransform(270,13.05);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance_1}]}).to({state:[{t:this.instance_1}]},44).to({state:[{t:this.instance_1}]},10).to({state:[]},1).wait(194));
+	this.timeline.addTween(cjs.Tween.get({}).to({t:this.instance_1}]}).to({state:[{t:this.instance_1}]},44).to({state:[{t:this.instance_1}]},10).to({state:[]},1).wait(194));
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(44).to({startPosition:44},0).to({x:-328.45},10).to({_off:true},1).wait(194));
 
 	// OEL
